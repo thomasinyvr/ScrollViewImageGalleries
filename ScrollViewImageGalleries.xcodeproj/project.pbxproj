@@ -11,8 +11,9 @@
 		FCACA5681CA0954100A7D908 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACA5671CA0954100A7D908 /* AppDelegate.m */; };
 		FCACA56B1CA0954100A7D908 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACA56A1CA0954100A7D908 /* ViewController.m */; };
 		FCACA56E1CA0954100A7D908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCACA56C1CA0954100A7D908 /* Main.storyboard */; };
-		FCACA5701CA0954100A7D908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCACA56F1CA0954100A7D908 /* Assets.xcassets */; };
 		FCACA5731CA0954100A7D908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCACA5711CA0954100A7D908 /* LaunchScreen.storyboard */; };
+		FCACA57B1CA09F5500A7D908 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCACA57A1CA09F5500A7D908 /* Images.xcassets */; };
+		FCACA57E1CA0B02900A7D908 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCACA57D1CA0B02900A7D908 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +24,11 @@
 		FCACA5691CA0954100A7D908 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FCACA56A1CA0954100A7D908 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FCACA56D1CA0954100A7D908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FCACA56F1CA0954100A7D908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCACA5721CA0954100A7D908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCACA5741CA0954100A7D908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCACA57A1CA09F5500A7D908 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCACA57C1CA0B02900A7D908 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FCACA57D1CA0B02900A7D908 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +65,10 @@
 				FCACA5671CA0954100A7D908 /* AppDelegate.m */,
 				FCACA5691CA0954100A7D908 /* ViewController.h */,
 				FCACA56A1CA0954100A7D908 /* ViewController.m */,
+				FCACA57C1CA0B02900A7D908 /* DetailViewController.h */,
+				FCACA57D1CA0B02900A7D908 /* DetailViewController.m */,
 				FCACA56C1CA0954100A7D908 /* Main.storyboard */,
-				FCACA56F1CA0954100A7D908 /* Assets.xcassets */,
+				FCACA57A1CA09F5500A7D908 /* Images.xcassets */,
 				FCACA5711CA0954100A7D908 /* LaunchScreen.storyboard */,
 				FCACA5741CA0954100A7D908 /* Info.plist */,
 				FCACA5631CA0954100A7D908 /* Supporting Files */,
@@ -138,7 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCACA5731CA0954100A7D908 /* LaunchScreen.storyboard in Resources */,
-				FCACA5701CA0954100A7D908 /* Assets.xcassets in Resources */,
+				FCACA57B1CA09F5500A7D908 /* Images.xcassets in Resources */,
 				FCACA56E1CA0954100A7D908 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +158,7 @@
 				FCACA56B1CA0954100A7D908 /* ViewController.m in Sources */,
 				FCACA5681CA0954100A7D908 /* AppDelegate.m in Sources */,
 				FCACA5651CA0954100A7D908 /* main.m in Sources */,
+				FCACA57E1CA0B02900A7D908 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
